@@ -1,0 +1,16 @@
+---
+applications:
+- name: webhook-ws
+  memory: 64m
+  instances: 1
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
+  env:
+    WEBHOOK_VERIFY_TOKEN: "EAAN1oZAkFuZAUBOZCArBAbW5lRYwAUlA44uqMOZBfZAaUygFbMz1K7oRpnWT9fQn4bkZA4v1y6RV7v9iwGTZB4bgr7JkYbJjoYOm57QfTPTyrHYOaIkPCZBWzu8LpbGKRoQCZABEdBwyC6rvjrwgqLYPPPaZAmDqardaatfZA0cB3D0uKyYEiZC8U5PIeZCSwBMS3ZAOEZAVZCPA5BEqdaGtQLYy5LpWl9RJlVGvmv25bJQZD"
+    WS_Other: "+5219842183484"
+    WS_ID: "286191004574596"
+  
+    
+
+  
+    
+    
